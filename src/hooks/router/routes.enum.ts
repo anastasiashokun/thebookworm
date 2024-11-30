@@ -1,8 +1,12 @@
 enum Routes {
     App = '/',
     Home = '/home',
-    Grenres = '/Genres/memories',
-    Customers = '/dashboard/customers',
+    Detectives = '/detectives',
+    Fantasy = '/fantasy',
+    Horror = '/horror',
+    Psychology = '/psychology',
+    Romance = '/romance',
+
   }
   
   export default Routes;
