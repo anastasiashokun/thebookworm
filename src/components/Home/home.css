@@ -1,4 +1,3 @@
-/* Home.css */
 .home-container {
     display: flex;
     flex-direction: column;
@@ -171,6 +170,68 @@
     color: var(--white);
   }
 
+
+  
+  /* Media Queries for Mobile Devices */
+  @media (max-width: 768px) {
+    .home-container {
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .animated-title {
+      font-size: 2em;
+      top: 10px;
+      left: 10px;
+    }
+  
+    .main-content {
+      margin-top: 50px;
+    }
+  
+    .content-block {
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
+      width: 500px;
+      padding: 20px;
+    }
+  
+    .book-image {
+      margin: 0 0 20px 0;
+      width: 120px;
+      height: 120px;
+    }
+  
+    .wrapper-talk {
+      position: static;
+      margin: 10px ;
+      flex-direction: column;
+    }
+  
+    .wrapper {
+      width: 80%;
+      margin: 10px 0;
+    }
+  
+    .tags {
+      position: static;
+      margin-top: 20px;
+      justify-content: center;
+    }
+  
+    .tags .hashtag {
+      font-size: var(--fs-6);
+    }
+  
+  
+    .social-link .icon-box {
+      width: 35px;
+      height: 35px;
+      font-size: 18px;
+      margin: 2px 0;
+    }
+  }
   
 
   
